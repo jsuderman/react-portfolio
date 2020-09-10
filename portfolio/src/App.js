@@ -5,21 +5,21 @@ import About from "./components/pages/about";
 import Projects from "./components/pages/projects";
 import Contact from "./components/pages/contact";
 import Resume from "./components/pages/resume";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Nav from "./components/nav";
+import Foot from "./components/foot";
 
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <Nav />
         <Route exact path="/"  component={Home} />
         <Route exact path="/about"  component={About} />
         <Route exact path="/projects"  component={Projects} />
         <Route exact path="/contact"  component={Contact}/>
         <Route exact path="/resume"  component={Resume}/>
-        <Footer />
+        <Foot />
       </div>
     </Router>
   );
