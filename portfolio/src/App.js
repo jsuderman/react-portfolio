@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./components/pages/home";
+import Home from "./components/pages/Home/home";
 import About from "./components/pages/about";
 import Projects from "./components/pages/projects";
 import Contact from "./components/pages/contact";
 import Resume from "./components/pages/resume";
 import Nav from "./components/nav";
-import Foot from "./components/foot";
+
 
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
         <Route exact path="/projects"  component={Projects} />
         <Route exact path="/contact"  component={Contact}/>
         <Route exact path="/resume"  component={Resume}/>
-        <Foot />
       </div>
     </Router>
   );
