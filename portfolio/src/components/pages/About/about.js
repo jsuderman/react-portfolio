@@ -16,9 +16,6 @@ export default class About extends Component {
                                 <p> HTML | CSS | Javascript | ReactJS | NodeJS | Express | mySQL | MongoDB </p>
                             </div>
                         </Col>
-
-
-
                     </Row>
                     <br />
                     <br />
