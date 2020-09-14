@@ -9,10 +9,10 @@ export default class Navigation extends Component {
                 <Navbar className="nav-color" bg="dark" variant="dark">
                     <Navbar.Brand style={{color:"black"}}>Justin Suderman</Navbar.Brand>
                     <Nav className="mr-auto" style={{alignItems: "center"}}>
-                        <Nav.Link href="/home" style={{color:"black"}}>Home</Nav.Link>
-                        <Nav.Link href="/about"style={{color:"black"}}>About Me</Nav.Link>
+                        <Nav.Link href="/" href="/about" style={{color:"black"}}>About Me</Nav.Link>
                         <Nav.Link href="/projects"style={{color:"black"}}>Projects</Nav.Link>
                         <Nav.Link href="/resume"style={{color:"black"}}>Resume</Nav.Link>
+                        <Nav.Link href="/contact"style={{color:"black"}}>Contact</Nav.Link>
                     </Nav>
                     <Nav className="social-links">
                         <a href="https://github.com/jsuderman" target="_blank" rel="noopener noreferrer"> 
