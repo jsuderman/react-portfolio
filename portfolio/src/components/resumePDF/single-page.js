@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Document, Page } from "react-pdf";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function SinglePage(props) {
     const [numPages, setNumPages] = useState(null);
@@ -31,7 +32,7 @@ export default function SinglePage(props) {
                 options={{ workerSrc: "/pdf.worker.js" }}
                 onLoadSuccess={onDocumentLoadSuccess}
             >
-                <Page pageNumber={pageNumber} />
+                <Page  style={{display: "flex"}, {alignItems: "center"}} pageNumber={pageNumber} />
             </Document>
             <div>
                 <p>
