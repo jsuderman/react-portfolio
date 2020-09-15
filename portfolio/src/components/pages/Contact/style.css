@@ -1,0 +1,62 @@
+.contact-grid h1{
+    text-align: center;
+
+}
+
+.personal-grid {
+    text-align: center;
+
+}
+
+.personal-grid h3{
+    text-align: center;
+
+}
+
+.social-block {
+    text-align: center;
+}
+
+.social-block h3{
+    text-align: center;
+}
+
+.social-block i {
+    text-align: center;
+
+}
+
+.social-block ul {
+    list-style-type: none;
+
+}
+
+.personal-grid ul {
+    list-style-type: none;
+
+}
+.github {
+    text-align: center ; 
+    justify-content: center;
+    ;
+    
+    
+}
+
+.github i {
+    text-align: center; 
+    justify-content: right;
+    color: white;
+}
+
+.twitter i {
+    text-align: center; 
+    justify-content: right;
+    color: white;
+}
+
+.linkedin i {
+    text-align: center; 
+    justify-content: right;
+    color: white;
+}
