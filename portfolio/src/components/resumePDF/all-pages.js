@@ -9,7 +9,7 @@ export default function AllPages(props) {
     }
 
     const { pdf } = props;
-
+    console.log(props)
     return (
         <Document
             file={pdf}
@@ -17,7 +17,7 @@ export default function AllPages(props) {
             onLoadSuccess={onDocumentLoadSuccess}
         >
             {Array.from(new Array(numPages), (el, index) => (
-                <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+                <Page style={{display: "center"}} key={`page_${index + 1}`} pageNumber={index + 1} />
             ))}
         </Document>
     );

@@ -7,8 +7,7 @@ import Resume from "./components/pages/resume";
 import Foot from "./components/foot";
 import Navigation from './components/navigation';
 import "./App.css"
-import SinglePagePDFViewer from "./components/resumePDF/single-page";
-import AllPagesPDFViewer from "./components/resumePDF/all-pages";
+
 
 
 
