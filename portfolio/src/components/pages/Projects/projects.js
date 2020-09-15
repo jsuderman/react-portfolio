@@ -5,35 +5,55 @@ import "./style.css";
 
 export default class Projects extends Component {
     render() {
+
         return (
             <div className="project-back">
-                <div>
-                    <h1>Projects</h1>
-                    <Container>
-                        <Row className="justify-content-md-center">
-                            <Col lg={true}>
-                                <Cards />
-                                <Cards />
-                                <Cards />
-                            </Col>
-                            
-                        </Row>
-                        <Row lg={true}>
-                            <div>
-                                <Cards />
-                            </div>
-                            <div>
-                                <Cards />
-                            </div>
-                            <div>
-                                <Cards />
-                            </div>
-                        </Row>
-
-                    </Container>
-                    
-                </div>
-                
+                <h1>Projects</h1>
+                <br />
+                <Container>
+                    <Row className="row-one">
+                        <Cards
+                            title="Password Generator"
+                            subtitle="HTML , Javascript"
+                            text="This app asks user several questions in order to automatically generate a password that will be realiable and secure."
+                            link="Github Repo"
+                        />
+                        <Cards
+                            title="Password Generator"
+                            subtitle="HTML , Javascript"
+                            text="This app asks user several questions in order to automatically generate a password that will be realiable and secure."
+                            link="Github Repo"
+                        />
+                        <Cards
+                            title="Password Generator"
+                            subtitle="HTML , Javascript"
+                            text="This app asks user several questions in order to automatically generate a password that will be realiable and secure."
+                            link="Github Repo"
+                        />
+                    </Row>
+                    <br />
+                    <br />
+                    <Row className="row-two">
+                        <Cards
+                            title="Password Generator"
+                            subtitle="HTML , Javascript"
+                            text="This app asks user several questions in order to automatically generate a password that will be realiable and secure."
+                            link="Github Repo"
+                        />
+                        <Cards
+                            title="Password Generator"
+                            subtitle="HTML , Javascript"
+                            text="This app asks user several questions in order to automatically generate a password that will be realiable and secure."
+                            link="Github Repo"
+                        />
+                        <Cards
+                            title="Password Generator"
+                            subtitle="HTML , Javascript"
+                            text="This app asks user several questions in order to automatically generate a password that will be realiable and secure."
+                            link="Github Repo"
+                        />
+                    </Row>
+                </Container>
             </div>
         )
     }

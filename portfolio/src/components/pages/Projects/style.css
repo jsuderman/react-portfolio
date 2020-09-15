@@ -8,3 +8,11 @@
 .project-back h1 {
     text-align: center;
 }
+
+.row-one {
+    justify-content: space-between;
+}
+
+.row-two {
+    justify-content: space-between;
+}

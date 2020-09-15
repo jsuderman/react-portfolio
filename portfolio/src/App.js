@@ -1,12 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./components/pages/Home/home";
 import About from "./components/pages/About/about";
 import Projects from "./components/pages/Projects/projects";
 import Contact from "./components/pages/contact";
 import Resume from "./components/pages/resume";
 import Foot from "./components/foot";
 import Navigation from './components/navigation';
+import "./App.css"
+import SinglePagePDFViewer from "./components/resumePDF/single-page";
+import AllPagesPDFViewer from "./components/resumePDF/all-pages";
+
 
 
 
