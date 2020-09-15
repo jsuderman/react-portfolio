@@ -7,15 +7,17 @@ export default class Foot extends Component {
         return (
             <div>
                 <Footer size="mini">
-                    <FooterSection className="footer-section" type="top" logo="Title">
-                        <FooterDropDownSection>
+                    <FooterSection className="footer-section" type="top" logo="Pages">
+                        
                         <FooterLinkList  className="footer">
-                            <a href="#">Help</a>
-                            <a href="#">Privacy & Terms</a>
+                            <a href="/about">About</a>
+                            <a href="/projects">Projects</a>
+                            <a href="/resume">Resume</a>
+                            <a href="/contact">Contact</a>
                         </FooterLinkList>
 
 
-                        </FooterDropDownSection>
+                        
                         
                     </FooterSection>
                 </Footer>
