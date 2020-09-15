@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
-import { Footer, FooterSection, FooterLinkList } from 'react-mdl';
+import { Footer, FooterSection, FooterLinkList, FooterDropDownSection } from 'react-mdl';
 import "./style.css";
 
 export default class Foot extends Component {
     render() {
         return (
             <div>
-                <Footer className="foot-color" size="mini" >
-                    <FooterSection type="left" logo="Justin Suderman">
-                        <FooterLinkList>
-                            <a href="1">Help</a>
-                            <a href="1">Privacy & Terms</a>
+                <Footer size="mini">
+                    <FooterSection className="footer-section" type="top" logo="Title">
+                        <FooterDropDownSection>
+                        <FooterLinkList  className="footer">
+                            <a href="#">Help</a>
+                            <a href="#">Privacy & Terms</a>
                         </FooterLinkList>
+
+
+                        </FooterDropDownSection>
+                        
                     </FooterSection>
                 </Footer>
             </div>
