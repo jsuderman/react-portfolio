@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import SinglePagePDFViewer from "../resumePDF/single-page";
-import AllPagesPDFViewer from "../resumePDF/all-pages";
 
 /* This is required only if the project file is located 
 inside the app. Otherwise you can use the external link of the pdf file*/

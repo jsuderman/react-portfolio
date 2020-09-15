@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Footer, FooterSection, FooterLinkList, FooterDropDownSection } from 'react-mdl';
+import { Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import "./style.css";
 
 export default class Foot extends Component {

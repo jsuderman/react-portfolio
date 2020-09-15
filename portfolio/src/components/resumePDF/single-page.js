@@ -32,7 +32,7 @@ export default function SinglePage(props) {
                 options={{ workerSrc: "/pdf.worker.js" }}
                 onLoadSuccess={onDocumentLoadSuccess}
             >
-                <Page  style={{display: "flex"}, {alignItems: "center"}} pageNumber={pageNumber} />
+                <Page pageNumber={pageNumber} />
             </Document>
             <div>
                 <p>
