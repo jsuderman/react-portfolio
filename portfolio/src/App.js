@@ -14,7 +14,7 @@ import "./App.css"
 
 function App() {
   return (
-    <Router>
+    
       <div className="App">
         <Navigation />
         <Route exact path="/"  component={About} />
@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/resume"  component={Resume}/>
         <Foot />
       </div>
-    </Router>
+    
   );
 }
 
