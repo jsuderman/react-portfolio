@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, { Component } from 'react';
+import { Route, Switch } from "react-router-dom";
 import About from "./components/pages/About/about";
 import Projects from "./components/pages/Projects/projects";
 import Contact from "./components/pages/Contact/contact";
@@ -12,31 +12,26 @@ import "./App.css"
 
 
 
-function App() {
-  return (
-    <Router>
+class App extends Component {
+  render() {
+
+    return(
+    
       <div className="App">
-
-
         <Navigation />
         <Switch>
-          <Route path="/" exact component={About} />
-          <Route path="/about" exact component={About} />
-          <Route path="/projects" exact component={Projects} />
-          <Route path="/contact" exact component={Contact} />
-          <Route path="/resume" exact component={Resume} />
+          <Route path="/" component={About} />
+          <Route path="/about"  component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact"  component={Contact} />
+          <Route path="/resume"  component={Resume} />
         </Switch>
-        
-
         <Foot />
-
-
-
       </div>
+    );
 
-    </Router>
-
-  );
+  };
 }
+
 
 export default App;
